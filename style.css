@@ -1,0 +1,334 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+.container {
+    display: flex;
+    justify-content: flex-end; /* Alinha os itens ao fim do contêiner */
+    padding-right: 10px; /* Adiciona 10px de padding à direita */
+    background: #fff; /* Fundo branco para visibilidade */
+    width: 100%; /* Ajusta a largura para cobrir o espaço horizontal */
+}
+.container a {
+    padding: 10px; /* Espaçamento interno para links para melhor clique */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: black; /* Define a cor do texto dos links */
+}
+.container1 {
+    display: flex;
+    flex-direction: column; /* Organiza os contêineres em coluna */
+    align-items: flex-start; /* Alinha os itens ao início, garantindo alinhamento à esquerda */
+    max-width: 1200px; /* Largura máxima do contêiner principal */
+    margin: auto; /* Centraliza o contêiner na página */
+    padding: 20px; /* Espaçamento interno */
+    }
+
+
+.intro-container h1 {
+font-size: 28px; /* Tamanho da fonte para o título */
+color: #333; /* Cor do texto */
+margin-bottom: 10px; /* Espaço abaixo do título */
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    text-align: center;
+    color: #000000;
+}
+
+.hero h2 {
+    text-align: left; /* Alinha o título da categoria à esquerda */
+    font-size: 2em; /* Tamanho do título da categoria */
+    color: #666; /* Cor do título da categoria */
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.hero .btn {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.stats {
+    padding: 40px 0;
+}
+
+.stat {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.stat span:first-child {
+    font-size: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.stat span:last-child {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #ffffff;
+    padding:
+}
+.partner-logos {
+        display: flex;          /* Usa Flexbox para alinhar elementos */
+        justify-content: center; /* Centraliza as imagens horizontalmente */
+        align-items: center;    /* Alinha as imagens verticalmente */
+        background-color: none; /* Cor de fundo azul */
+        padding: 20px 0;        /* Padding vertical para espaço acima e abaixo das logos */
+    }
+    .partner-logos-h2 {
+        color: rgb(255, 255, 255); /* Cor do texto */
+        position: absolute; /* Posicionamento absoluto dentro do contêiner */
+        top: 10; /* Alinha ao topo do contêiner */
+        left: 20px; /* Espaço do lado esquerdo */
+        margin: 15; /* Remove margem padrão */
+    }
+    .partner-logo {
+        margin: 0 70px; /* Espaço entre cada logo */
+    }
+    .partners-section {
+        background-color: #002244; /* Ajuste a cor de fundo conforme necessário */
+        padding: 20px; /* Ajuste o preenchimento conforme necessário */
+        position: relative; /* Para posicionamento relativo do título */
+      }
+      .partners-logos {
+        display: flex; /* Usa Flexbox para alinhar os logos */
+        justify-content: center; /* Centraliza os logos horizontalmente */
+        align-items: center; /* Alinha os logos verticalmente */
+        padding-top: 40px; /* Espaço acima dos logos para não sobrepor o título */
+      }
+/* CSS para alinhar o cabeçalho e o conteúdo geral */
+.about {
+    font-family: 'Arial', sans-serif;  /* Define a fonte */
+    max-width: 1200px;  /* Largura máxima do contêiner */
+    margin: auto;  /* Centraliza na página */
+    padding: 20px;  /* Padding ao redor do contêiner */
+}
+
+.about h1 {
+    font-size: 36px;  /* Tamanho grande para o título principal */
+    margin-bottom: 20px;  /* Espaço abaixo do título */
+    color: #333;  /* Cor escura para o texto */
+}
+
+.about h2 {
+    font-size: 28px;  /* Tamanho do subtítulo */
+    margin-bottom: 15px;  /* Espaço abaixo dos subtítulos */
+    color: #555;  /* Cor mais suave para subtítulos */
+}
+
+.about p {
+    font-size: 16px;  /* Tamanho padrão do texto */
+    line-height: 1.6;  /* Espaçamento de linha */
+    color: #666;  /* Cor suave para o texto */
+    margin-bottom: 15px;  /* Espaço abaixo de cada parágrafo */
+}
+
+.about .content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.about .text-content {
+    flex: 3;
+    padding-right: 20px;
+}
+
+.about .image-content {
+    flex: 1.5;
+    padding-left: 20px;
+}
+
+.about img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;  /* Bordas arredondadas */
+}
+/* DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO*/
+.services-container {
+    background-color: #032F5C; /* Cor de fundo escura para contraste */
+    color: #fff; /* Texto branco para legibilidade */
+    padding: 40px 0; /* Espaço vertical ao redor do conteúdo, 0 à esquerda e à direita */
+    width: 100vw; /* Define a largura como a largura total da janela de visualização */
+    margin: 0; /* Remove qualquer margem, especialmente laterais */
+    box-sizing: border-box; /* Inclui padding na largura e altura */
+    overflow-x: hidden; /* Previne qualquer desbordamento horizontal */
+}
+
+.row {
+    display: flex; /* Usa flexbox para organizar serviços em linha */
+    justify-content: space-around; /* Distribui o espaço uniformemente ao redor de cada serviço */
+    flex-wrap: wrap; /* Permite que os serviços envolvam conforme necessário */
+    margin: 20px 40px; /* Espaço interno horizontal para alinhamento dos serviços */
+}
+
+.service {
+    width: 30%; /* Largura de cada serviço para ocupar cerca de um terço do contêiner */
+    padding: 20px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui padding e border na largura e altura */
+}
+
+.service h2, .service p {
+    text-align: center; /* Centraliza o texto dos serviços */
+}
+
+.service h2 {
+    margin-bottom: 10px; /* Espaço abaixo de cada título de serviço */
+}
+
+.service p {
+    font-size: 0.9rem; /* Tamanho menor para a descrição */
+    line-height: 1.4; /* Espaçamento de linha para legibilidade */
+}
+
+/* Ajusta o título para alinhar à esquerda com padding para uniformidade */
+.services-container h1 {
+    text-align: left;
+    padding-left: 40px; /* Alinhamento consistente com o restante dos itens */
+}
+
+
+/* DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO-DIVISÃO*/
+.portfolio-container {
+    width: 80%; /* Ajuste a largura conforme necessário */
+    margin: auto; /* Centraliza o contêiner na página */
+    background: #FFFFFF; /* Fundo branco para o contêiner do portfólio */
+    padding: 20px; /* Espaçamento interno */
+    box-sizing: border-box;
+}
+
+.portfolio-container h1 {
+    text-align: left; /* Alinha o título principal à esquerda */
+    font-size: 2.5em; /* Tamanho do título */
+    color: #333; /* Cor do título */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.category {
+    margin-bottom: 40px; /* Espaço entre as categorias */
+}
+
+.category h2 {
+    text-align: left; /* Alinha o título da categoria à esquerda */
+    font-size: 2em; /* Tamanho do título da categoria */
+    color: #666; /* Cor do título da categoria */
+}
+
+.category p {
+    text-align: left; /* Alinha o texto à esquerda */
+    font-size: 1em; /* Tamanho do texto */
+    color: #666; /* Cor do texto */
+    margin: 20px 0; /* Espaço acima e abaixo do texto */
+}
+
+.category img {
+    display: block; /* Imagens são blocos para melhor controle */
+    width: 100%; /* As imagens ocupam toda a largura do contêiner da categoria */
+    height: auto; /* Altura automática para manter a proporção */
+    margin-top: 20px; /* Espaço acima das imagens */
+}
+
+
+
+
+.stats-container {
+    display: flex; /* Utiliza Flexbox para organizar os itens em linha */
+    justify-content: space-around; /* Distribui o espaço uniformemente entre os itens */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    background-color: #ffffff; /* Fundo preto para o contêiner */
+    color: #000000; /* Texto branco para contraste */
+    padding: 20px 0; /* Espaçamento vertical */
+    width: 100%; /* A largura total da janela de visualização */
+}
+
+.stat h2 {
+    font-size: 2.5rem; /* Tamanho grande para os números */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimentos padrão */
+}
+
+.stat p {
+    font-size: 1.2rem; /* Tamanho adequado para descrições */
+    margin: 5px 0 0; /* Margem acima para espaçar do número */
+}
+
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Ajuste conforme necessário para a sua tela */
+    background-image: url('/Assents/web.png'); /* Substitua pelo caminho correto da sua imagem */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    z-index: 2;
+    padding: 20px;
+    width: 80%; /* Ajuste a largura conforme necessário */
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay escuro para melhor visibilidade do texto */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Opcional: adiciona sombra para destaque */
+}
+
+.hero-section h1, .hero-section p {
+    margin: 10px 0; /* Espaçamento vertical entre os elementos */
+}
+
+.hero-section button {
+    padding: 10px 20px;
+    background-color: #0062cc; /* Cor do botão */
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
